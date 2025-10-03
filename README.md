@@ -1,5 +1,9 @@
 # CMPM 121 Section Activity
 
+Added counter implementation.
+
+---
+
 This section activity is intended to introduce you to many of the tools and workflows that we'll use in CMPM 121, Game Development Patterns.
 
 Key tools:
