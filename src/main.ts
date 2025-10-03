@@ -18,6 +18,12 @@ document.body.innerHTML = `
 // Add click handler
 const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
+const img = document.createElement("img");
+img.src = "src/images.jpg";
+
+if (button) {
+  button.insertAdjacentElement("beforebegin", img);
+}
 
 button.addEventListener("click", () => {
   // This looks like to a good place to add some logic!
